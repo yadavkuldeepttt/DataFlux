@@ -1,0 +1,48 @@
+---
+	const notFoundImage =
+		'https://img.freepik.com/free-vector/oops-404-error-with-broken-robot-concept-illustration_114360-1932.jpg?size=626&ext=jpg&ga=GA1.2.349612747.1665762195&semt=sph';
+
+	const notFoundMessage = 'Oops! The page you are looking for does not exist.';
+---
+<div class="container-as flex h-screen w-screen justify-center  text-center" >
+    <div>
+
+        <img src={notFoundImage} alt="404 Not Found" class="error-image" />
+        <div class="error-message text-center">{notFoundMessage}</div>
+        <button class="error-button btn ">
+            <a href="/" style="text-decoration:none" class=" text-white">
+                Go Back Home
+    </a>
+    </button>
+            </div>
+</div>
+
+<style>
+	.container {
+		margin-top: 15px;
+		text-align: center;
+	}
+
+	.error-image {
+		max-width: 100%;
+		height: 85vh;
+	}
+
+	.error-message {
+		margin-top: -4%;
+		font-size: 18px;
+        color:red;	
+        }
+        .error-button{
+            margin-top:1rem;
+            padding:0.6rem 0.8rem;
+            border:1px solid red;
+            border-radius:10px;
+            outline:0;
+               background-color:red;
+            } 
+            .error-button a{
+                
+                color:#fff;
+        }
+</style>

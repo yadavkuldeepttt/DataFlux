@@ -1,0 +1,40 @@
+{
+  "name": "my-mixed-app",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/svelte": "^5.6.0",
+    "@astrojs/tailwind": "^5.1.0",
+    "@astrojs/vercel": "^7.6.0",
+    "@popperjs/core": "^2.11.8",
+    "@xyflow/svelte": "^0.1.17",
+    "ajv": "^8.17.1",
+    "astro": "^4.6.1",
+    "autoprefixer": "^10.4.19",
+    "axios": "^1.7.2",
+    "chart.js": "^4.4.3",
+    "node-fetch": "^3.3.2",
+    "path": "^0.12.7",
+    "postcss": "^8.4.38",
+    "resize-observer-polyfill": "^1.5.1",
+    "svelte": "^4.2.14",
+    "svelte-chartjs": "^3.1.5",
+    "svelte-feather-icons": "^4.1.0",
+    "svelte-json-tree": "^2.2.0",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss": "^3.4.3",
+    "vite": "^5.2.8"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.12.7",
+    "daisyui": "^4.11.1"
+  }
+}

@@ -1,0 +1,25 @@
+---
+import ContestDetails from "../../components/svelte/contestDetails.svelte";
+import Layout from '../../layouts/Layout.astro';
+import { details } from "../../apiData/contestdetails.js";
+
+
+export async function getStaticPaths({ params }) {
+  return details.map((detail) => {
+    return {
+      params: { jo: detail.jo },
+      props: { detail }
+    };
+  });
+}
+
+const {jo} = Astro.params;
+const {detail} = Astro.props;
+
+---
+
+<Layout>
+    <main>
+        <ContestDetails client:visible {detail}/>
+    </main>
+</Layout>

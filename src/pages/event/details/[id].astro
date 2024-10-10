@@ -1,0 +1,68 @@
+---
+import EventDetails from "../../../components/svelte/event/eventDetails.svelte";
+import Layout from '../../../layouts/Layout.astro';
+import { details } from "../../../apiData/eventDetails.js";
+import {findId} from "../../../apiData/eventDetails"
+
+
+let doLocal = {
+  apiCommit:{
+    async getData() {
+    try {
+      const response = await fetch('https://api.example.com/events', {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
+      if (!response.ok) {
+        throw new Error('Failed to fetch data');
+      }
+      const data = await response.json();
+      return data;
+    } catch (error) {
+      console.error('Error fetching event details:', error);
+      return [];
+    }
+  }
+  }
+}
+
+
+
+// Generate static paths
+export async function getStaticPaths() {
+  const details = await doLocal.apiCommit.getData();
+  return details.map((detail) => {
+    return {
+      params: { id: detail.id },
+      props: { detail }
+    };
+  });
+}
+
+// Fetch parameters and props
+const { id } = Astro.params;
+console.log(id,"id");
+// const detail = details.find(detail => detail.id.toString() === id);
+const eventDetail = findId(id);
+
+// Fetch event detail based on the ID using the API
+// const eventDetail = await doLocal.apiCommit.getData().then(data => {
+//   return data.find(detail => detail.id.toString() === id);
+// });
+
+
+console.log(eventDetail,"detail");
+
+// if (!detail) {
+//   throw new Error(`Detail not found for id: ${id}`);
+// }
+
+---
+
+<Layout>
+    <main>
+        <EventDetails client:visible {eventDetail}/>
+    </main>
+</Layout>

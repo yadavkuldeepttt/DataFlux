@@ -1,0 +1,30 @@
+---
+import InternshipDetails from "../../components/svelte/internshipDetails.svelte";
+import Layout from '../../layouts/Layout.astro';
+import { details } from "../../apiData/internshipdetails.js";
+
+// Generate static paths
+export async function getStaticPaths() {
+  return details.map((detail) => {
+    return {
+      params: { jo: detail.jo.toString() },
+      props: { detail }
+    };
+  });
+}
+
+// Fetch parameters and props
+const { jo } = Astro.params;
+const detail = details.find(detail => detail.jo.toString() === jo);
+
+if (!detail) {
+  throw new Error(`Detail not found for jo: ${jo}`);
+}
+
+---
+
+<Layout>
+    <main>
+        <InternshipDetails client:visible {detail}/>
+    </main>
+</Layout>

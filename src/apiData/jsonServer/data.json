@@ -1,0 +1,1490 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "logo": "https://placehold.co/80x80",
+      "jobPost": "Software Engineer",
+      "companyName": "ABC Company",
+      "location": "New York, USA",
+      "jobType": "Full Time",
+      "salary": "$123-$456",
+      "date": "01 Jan, 2045"
+    },
+    {
+      "id": 2,
+      "logo": "https://placehold.co/80x80",
+      "companyName": "ABC Company",
+      "jobPost": "Marketing Engineer",
+      "location": "New York, USA",
+      "jobType": "Full Time",
+      "salary": "$123-$456",
+      "date": "01 Jan, 2045"
+    },
+    {
+      "id": 3,
+      "logo": "https://placehold.co/80x80",
+      "companyName": "ABC Company",
+      "jobPost": "SQl Developer",
+      "location": "New York, USA",
+      "jobType": "Part Time",
+      "salary": "$123-$456",
+      "date": "01 Jan, 2045"
+    },
+    {
+      "id": 4,
+      "logo": "https://placehold.co/80x80",
+      "jobPost": "Full Stack Engineer",
+      "companyName": "ABC Company",
+      "location": "New York, USA",
+      "jobType": "Full Time",
+      "salary": "$123-$456",
+      "date": "01 Jan, 2045"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "title": "Fashion",
+      "mainHeadline": "Doja Cat and Jared Leto pay homage to Karl Lagerfeld's cat Choupette at Met Gala 2023. See pics",
+      "image": "https://placehold.co/200x220",
+      "description": "An Indian man, who was rescued from violence-hit Sudan, recalled how he and other people moved to a room in the basement of the building as the",
+      "votes": "3",
+      "comments": "09",
+      "likes": "3",
+      "shares": "",
+      "ads": [
+        {
+          "id": "1",
+          "image": "https://placehold.co/200x150",
+          "title": "IPL 2023: Virat Kohli and Gautam Gambhir in heated war of words after RCB beat LSG in low-scoring match"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "IPL 2023",
+      "mainHeadline": "Kohli's cryptic message after altercation with Gambhir: Everything we hear is an opinion",
+      "image": "https://placehold.co/200x220",
+      "description": "An Indian man, who was rescued from violence-hit Sudan, recalled how he and other people moved to a room in the basement of the building as the",
+      "votes": "3",
+      "comments": "09",
+      "likes": "3",
+      "shares": "",
+      "ads": [
+        {
+          "id": "1",
+          "image": "https://placehold.co/200x150",
+          "title": "IPL 2023: Virat Kohli and Gautam Gambhir in heated war of words after RCB beat LSG in low-scoring match"
+        }
+      ]
+    }
+  ],
+  "coworkingSpaces": [
+    {
+      "name": "InnovateHub  Space",
+      "location": "Ahmedabad",
+      "contact": {
+        "mobile": "+1 (555) 123-4567",
+        "email": "info@innovatehub.com"
+      },
+      "facilities": {
+        "drinkingWater": {
+          "icon": "bx bx-drink"
+        },
+        "cafeteria": {
+          "icon": "bx bx-food-menu"
+        },
+        "computers": {
+          "icon": "bx bx-desktop"
+        },
+        "24hrAccess": {
+          "icon": "bx bx-time-five"
+        },
+        "wifi": {
+          "icon": "bx bx-wifi"
+        },
+        "events": {
+          "icon": "bx bx-calendar-event"
+        }
+      },
+      "images": [
+        {
+          "baseURL": "https://coworkingers.com/",
+          "path": "wp-content/uploads/2023/08/2020-11-03.jpg"
+        },
+        {
+          "baseURL": "https://coworkingers.com/",
+          "path": "wp-content/uploads/2023/08/2023-01-15-1.jpg"
+        },
+        {
+          "baseURL": "https://coworkingers.com/",
+          "path": "wp-content/uploads/2023/08/the-address-vadodara-coworking-space-e.jpg"
+        }
+      ],
+      "events": [
+        {
+          "name": "Startup Networking Event",
+          "date": "2024-04-15",
+          "description": "Join us for a networking event tailored for startups! Meet potential collaborators and investors."
+        }
+      ],
+      "prices": "$300/mon"
+    },
+    {
+      "name": "Station27 Coworking",
+      "location": "Delhi",
+      "contact": {
+        "mobile": "+1 (555) 123-4567",
+        "email": "info@innovatehub.com"
+      },
+      "facilities": {
+        "drinkingWater": {
+          "icon": "bx bx-drink"
+        },
+        "cafeteria": {
+          "icon": "bx bx-food-menu"
+        },
+        "computers": {
+          "icon": "bx bx-desktop"
+        },
+        "24hrAccess": {
+          "icon": "bx bx-time-five"
+        }
+      },
+      "images": [
+        {
+          "baseURL": "https://coworkingers.com/",
+          "path": "wp-content/uploads/2023/08/2023-01-15-1.jpg"
+        },
+        {
+          "baseURL": "https://coworkingers.com/",
+          "path": "wp-content/uploads/2023/08/2020-11-03.jpg"
+        },
+
+        {
+          "baseURL": "https://coworkingers.com/",
+          "path": "wp-content/uploads/2023/08/the-address-vadodara-coworking-space-e.jpg"
+        }
+      ],
+      "events": [
+        {
+          "name": "Startup Networking Event",
+          "date": "2024-04-15",
+          "description": "Join us for a networking event tailored for startups! Meet potential collaborators and investors."
+        }
+      ],
+      "prices": "$200/mon"
+    },
+    {
+      "name": "Paragraph Coworking Space",
+      "location": "Bangalore",
+      "contact": {
+        "mobile": "+1 (555) 123-4567",
+        "email": "info@innovatehub.com"
+      },
+      "facilities": {
+        "drinkingWater": {
+          "icon": "bx bx-drink"
+        },
+        "cafeteria": {
+          "icon": "bx bx-food-menu"
+        },
+        "computers": {
+          "icon": "bx bx-desktop"
+        }
+      },
+      "images": [
+        {
+          "baseURL": "https://coworkingers.com/",
+          "path": "wp-content/uploads/2023/08/the-address-vadodara-coworking-space-e.jpg"
+        },
+        {
+          "baseURL": "https://coworkingers.com/",
+          "path": "wp-content/uploads/2023/08/2023-01-15-1.jpg"
+        },
+        {
+          "baseURL": "https://coworkingers.com/",
+          "path": "wp-content/uploads/2023/08/2020-11-03.jpg"
+        }
+      ],
+      "events": [
+        {
+          "name": "Startup Networking Event",
+          "date": "2024-04-15",
+          "description": "Join us for a networking event tailored for startups! Meet potential collaborators and investors."
+        }
+      ],
+      "prices": "$100/mon"
+    },
+    {
+      "name": "Station27 Coworking",
+      "location": "Delhi",
+      "contact": {
+        "mobile": "+1 (555) 123-4567",
+        "email": "info@innovatehub.com"
+      },
+      "facilities": {
+        "drinkingWater": {
+          "icon": "bx bx-drink"
+        },
+        "cafeteria": {
+          "icon": "bx bx-food-menu"
+        },
+        "computers": {
+          "icon": "bx bx-desktop"
+        },
+        "24hrAccess": {
+          "icon": "bx bx-time-five"
+        }
+      },
+      "images": [
+        {
+          "baseURL": "https://coworkingers.com/",
+          "path": "wp-content/uploads/2023/08/the-address-vadodara-coworking-space-e.jpg"
+        },
+        {
+          "baseURL": "https://coworkingers.com/",
+          "path": "wp-content/uploads/2023/08/2023-01-15-1.jpg"
+        },
+        {
+          "baseURL": "https://coworkingers.com/",
+          "path": "wp-content/uploads/2023/08/2020-11-03.jpg"
+        }
+      ],
+      "events": [
+        {
+          "name": "Startup Networking Event",
+          "date": "2024-04-15",
+          "description": "Join us for a networking event tailored for startups! Meet potential collaborators and investors."
+        }
+      ],
+      "prices": "$200/mon"
+    }
+  ],
+  "contests": [
+    {
+      "jo": "1",
+      "objectdetails": {
+        "name": "Hackerrank Coding Contest",
+        "job_role": "Software Engineer",
+        "start_date": "2024-05-15",
+        "end_date": "2024-05-20",
+        "participants": 500,
+        "description": "A coding contest for software engineers hosted on Hackerrank platform.",
+        "url": "https://www.hackerrank.com/contests/hackerrank-coding-contest"
+      }
+    },
+    {
+      "jo": "2",
+      "objectdetails": {
+        "name": "HackerEarth Codeathon",
+        "job_role": "Data Scientist",
+        "start_date": "2024-06-01",
+        "end_date": "2024-06-05",
+        "participants": 300,
+        "description": "A codeathon for data scientists organized by HackerEarth.",
+        "url": "https://www.hackerearth.com/challenges/"
+      }
+    }
+  ],
+  "marqueData": [
+    {
+      "id": "Breaking news",
+      "icon": "https://img.freepik.com/free-vector/hand-holding-recorder_24877-57104.jpg?t=st=1710823074~exp=1710826674~hmac=1b089f288478fdc61e0cd754970605ed9f7d759400cbdfc53c43e217bc11cf0c&w=360",
+      "link": "https://example.com/page1"
+    },
+    {
+      "id": "News",
+      "icon": "https://img.freepik.com/free-vector/news-tv-illustration_24877-57106.jpg?t=st=1710823102~exp=1710826702~hmac=3dadfa3c2e1c9d8d14ee95dfcbe9a7170a6a3964689a1be93ab1421d2b3fdd20&w=360",
+      "link": "https://example.com/page2"
+    },
+    {
+      "id": "Sports",
+      "icon": "https://img.freepik.com/free-vector/two-racket-tennis-ball-illustration_24877-60158.jpg?t=st=1710823129~exp=1710826729~hmac=3bbfe69e90451e144a8f8777733c0c1d6dcd5b21b0d40b84f201c5be7d58198a&w=360",
+      "link": "https://example.com/page3"
+    },
+    {
+      "id": "Sunrise",
+      "icon": "https://img.freepik.com/free-vector/sunburst-pattern_24877-52100.jpg?t=st=1710823170~exp=1710826770~hmac=7548dc0dd2c0816b4051c117937c9dbec28a3d83fe41cf2e762438c5b56dca51&w=360",
+      "link": "https://example.com/page4"
+    },
+    {
+      "id": "Breaking news",
+      "icon": "https://img.freepik.com/free-vector/hand-holding-recorder_24877-57104.jpg?t=st=1710823074~exp=1710826674~hmac=1b089f288478fdc61e0cd754970605ed9f7d759400cbdfc53c43e217bc11cf0c&w=360",
+      "link": "https://example.com/page1"
+    },
+    {
+      "id": "News",
+      "icon": "https://img.freepik.com/free-vector/news-tv-illustration_24877-57106.jpg?t=st=1710823102~exp=1710826702~hmac=3dadfa3c2e1c9d8d14ee95dfcbe9a7170a6a3964689a1be93ab1421d2b3fdd20&w=360",
+      "link": "https://example.com/page2"
+    },
+    {
+      "id": "Sports",
+      "icon": "https://img.freepik.com/free-vector/two-racket-tennis-ball-illustration_24877-60158.jpg?t=st=1710823129~exp=1710826729~hmac=3bbfe69e90451e144a8f8777733c0c1d6dcd5b21b0d40b84f201c5be7d58198a&w=360",
+      "link": "https://example.com/page3"
+    },
+    {
+      "id": "Sunrise",
+      "icon": "https://img.freepik.com/free-vector/sunburst-pattern_24877-52100.jpg?t=st=1710823170~exp=1710826770~hmac=7548dc0dd2c0816b4051c117937c9dbec28a3d83fe41cf2e762438c5b56dca51&w=360",
+      "link": "https://example.com/page4"
+    },
+    {
+      "id": "Breaking news",
+      "icon": "https://img.freepik.com/free-vector/hand-holding-recorder_24877-57104.jpg?t=st=1710823074~exp=1710826674~hmac=1b089f288478fdc61e0cd754970605ed9f7d759400cbdfc53c43e217bc11cf0c&w=360",
+      "link": "https://example.com/page1"
+    },
+    {
+      "id": "News",
+      "icon": "https://img.freepik.com/free-vector/news-tv-illustration_24877-57106.jpg?t=st=1710823102~exp=1710826702~hmac=3dadfa3c2e1c9d8d14ee95dfcbe9a7170a6a3964689a1be93ab1421d2b3fdd20&w=360",
+      "link": "https://example.com/page2"
+    }
+  ],
+  "infiniteVideos": [
+    {
+      "id": "1",
+      "description": "Big Buck Bunny tells the story of a giant rabbit with a heart bigger than himself. When one sunny day three rodents rudely harass him, something snaps... and the rabbit ain't no bunny anymore! In the typical cartoon tradition he prepares the nasty rodents a comical revenge.\n\nLicensed under the Creative Commons Attribution license\nhttp://www.bigbuckbunny.org",
+      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "subtitle": "By Blender Foundation",
+      "thumb": "images/BigBuckBunny.jpg",
+      "title": "Big Buck Bunny"
+    },
+    {
+      "id": "2",
+      "description": "Big Buck Bunny tells the story of a giant rabbit with a heart bigger than himself. When one sunny day three rodents rudely harass him, something snaps... and the rabbit ain't no bunny anymore! In the typical cartoon tradition he prepares the nasty rodents a comical revenge.\n\nLicensed under the Creative Commons Attribution license\nhttp://www.bigbuckbunny.org",
+      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+      "subtitle": "By Blender Foundation",
+      "thumb": "images/BigBuckBunny.jpg",
+      "title": "Big Buck Bunny"
+    },
+    {
+      "id": "3",
+      "description": "Big Buck Bunny tells the story of a giant rabbit with a heart bigger than himself. When one sunny day three rodents rudely harass him, something snaps... and the rabbit ain't no bunny anymore! In the typical cartoon tradition he prepares the nasty rodents a comical revenge.\n\nLicensed under the Creative Commons Attribution license\nhttp://www.bigbuckbunny.org",
+      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+      "subtitle": "By Blender Foundation",
+      "thumb": "images/BigBuckBunny.jpg",
+      "title": "Big Buck Bunny"
+    },
+    {
+      "id": "4",
+      "description": "Big Buck Bunny tells the story of a giant rabbit with a heart bigger than himself. When one sunny day three rodents rudely harass him, something snaps... and the rabbit ain't no bunny anymore! In the typical cartoon tradition he prepares the nasty rodents a comical revenge.\n\nLicensed under the Creative Commons Attribution license\nhttp://www.bigbuckbunny.org",
+      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4",
+      "subtitle": "By Blender Foundation",
+      "thumb": "images/BigBuckBunny.jpg",
+      "title": "Big Buck Bunny"
+    }
+  ],
+  "videoList": [
+    {
+      "id": "1",
+      "name": "video1",
+      "youtubeId": "UQwAne6kvOE",
+      "link": "https://www.youtube.com/embed/UQwAne6kvOE?si=414pifFEF5ZeCpKn",
+      "thumbnail": "https://img.youtube.com/vi/UQwAne6kvOE/0.jpg"
+    },
+    {
+      "id": "2",
+      "name": "video2",
+      "youtubeId": "mnHqdg9xWYQ",
+      "link": "https://www.youtube.com/embed/mnHqdg9xWYQ?si=z7AQH8pX1szLIqih",
+      "thumbnail": "https://img.youtube.com/vi/mnHqdg9xWYQ/0.jpg"
+    },
+    {
+      "id": "3",
+      "name": "video3",
+      "link": "",
+      "thumbnail": "https://c.sachtak.com/images/web/3.jpg"
+    }
+  ],
+  "storyData": [
+    {
+      "id": "page2",
+      "qrCode": "https://c.sachtak.com/images/web/qr_1.png",
+      "role": "क्या कहते हैं अधिवक्ता ?",
+      "objDetails": [
+        {
+          "name": "सुब्रमण्यम स्वामी",
+          "image": "https://c.sachtak.com/images/web/layer_17.png",
+          "designation": "भारत के पूर्व कानून एवं न्यायमंत्री",
+          "heading": "21वीं सदी का सबसे बड़ा अन्याय..",
+          "description": "सार बात यह है कि आशाराम बापू के खिलाफ बलात्कार का फर्जी मामला है । लगभग 85 वर्ष की उम्र में जब उनकी अपील उच्च न्यायालय में लम्बित है तो उन्हें जमानत देने से इन्कार करना मानवाधिकार और कानून की आपराधिक अवहेलना है ।"
+        },
+        {
+          "name": "अश्विनी उपाध्याय",
+          "image": "https://c.sachtak.com/images/web/c17.jpg",
+          "designation": "अधिवक्ता, सर्वोच्च न्यायालय",
+          "heading": "बोगस केस में जेल..",
+          "description": "सार बात यह है कि आशाराम बापू के खिलाफ बलात्कार का फर्जी मामला है । लगभग 85 वर्ष की उम्र में जब उनकी अपील उच्च न्यायालय में लम्बित है तो उन्हें जमानत देने से इन्कार करना मानवाधिकार और कानून की आपराधिक अवहेलना है ।"
+        },
+        {
+          "name": "हरिशंकर जैन",
+          "image": "https://c.sachtak.com/images/web/untitled_5.png",
+          "designation": "अधिवक्ता, सर्वोच्च न्यायालय",
+          "heading": "21वीं सदी का सबसे बड़ा अन्याय..",
+          "description": "सार बात यह है कि आशाराम बापू के खिलाफ बलात्कार का फर्जी मामला है । लगभग 85 वर्ष की उम्र में जब उनकी अपील उच्च न्यायालय में लम्बित है तो उन्हें जमानत देने से इन्कार करना मानवाधिकार और कानून की आपराधिक अवहेलना है ।"
+        },
+        {
+          "name": "ए. पी. सिंह",
+          "image": "https://c.sachtak.com/images/web/c19.jpg",
+          "designation": "अधिवक्ता, सर्वोच्च न्यायालय",
+          "heading": "आशारामजी बापू एक षड्यंत्र के शिकार हुए हैं..",
+          "description": "मैंने FIR देखी है, मेडिकल रिपोर्ट देखी है, जो बयान हुए हैं; उनको पढ़ा है । उसके आधार पर मैं इस निष्कर्ष पर पहुँचा हूँ कि केस बिल्कुल बनावटी है, केस में फँसाया गया है ।"
+        },
+        {
+          "name": "धर्मेंद्र मिश्रा",
+          "image": "https://c.sachtak.com/images/web/layer_20.jpg",
+          "designation": "अधिवक्ता, सर्वोच्च न्यायालय",
+          "heading": "21वीं सदी का सबसे बड़ा अन्याय..",
+          "description": "एक ऐसा सिस्टम है जिसको हम judiciary कहते हैं, judiciary ही जेल भेजती है । अब सत्ता और judiciary इनमें इतना घालमेल है कि सत्ता judiciary के माध्यम से और judiciary में आनेवाले लोग सत्ता के माध्यम से इस तरह का coccus बनाया है कि यहाँ आपको संत जेल में मिलेंगे और बाकी लोग बेल पे ।"
+        }
+      ]
+    },
+    {
+      "id": "page3",
+      "role": "अधिवक्ता",
+      "qrCode": "https://c.sachtak.com/images/web/qr_1.png",
+      "objDetails": [
+        {
+          "name": "संजीव पुनालेकरजी",
+          "image": "https://c.sachtak.com/images/web/c5.jpg",
+          "designation": "अधिवक्ता, राष्ट्रीय सचिव, हिन्दू विधिज्ञ परिषद",
+          "heading": "केस में कोई दम नहीं है..",
+          "description": "कानूनी रूप से देखो तो संत आशारामजी बापू के खिलाफ किये गये केस में कोई दम नहीं है । क्यों बापूजी की जमानत नहीं हो रही है और गुनहगारों की हो रही है, राजनेताओं की हो रही है ? बापूजी पर अन्याय और अत्याचार यह हिन्दू धर्म पर अत्याचार है ।"
+        },
+        {
+          "name": "कीर्ति आहूजा",
+          "image": "https://c.sachtak.com/images/web/untitled_2.png",
+          "designation": "अधिवक्ता, सर्वोच्च न्यायालय",
+          "heading": "आप भी खतरे में..",
+          "description": "आशाराम बापू के लोग जरूर इस जजमेंट को चैलेंज करें और उनके साथ जो अन्याय हुआ है उसे हाईकोर्ट समझे और इस जजमेंट को set aside करें लेकिन साथ ही सब लोग इस जजमेंट पर आवाज़ उठायें क्योंकि अगर यह अन्याय आज आशाराम बापू के साथ हुआ है तो कल आप में से किसी और के साथ भी हो सकता है क्योंकि अगर कोई जजमेंट नज़ीर बनती है तो उसी नज़ीर को आगे चलकर दूसरी कोर्ट भी फॉलो करती हैं ।"
+        },
+        {
+          "name": "विष्णुशंकर जैन",
+          "image": "https://c.sachtak.com/images/web/c1.jpg",
+          "designation": "अधिवक्ता, सर्वोच्च न्यायालय",
+          "heading": "आने वाला समय बतायेगा...",
+          "description": "आनेवाले समय में यह बात समाज के सामने आयेगी कि संत आशाराम बापू का केस झूठा था । उनको जो सजा दी गयी वह गलत थी । मीडिया या हिन्दू-विरोधी लोगों द्वारा एक माहौल बनाया जाता है कि हमारे संत ऐसी-ऐसी चीज में शामिल हैं ।"
+        },
+        {
+          "name": "संजय दीक्षित",
+          "image": "https://c.sachtak.com/images/web/image_146.jpg",
+          "designation": "अधिवक्ता, आईएएस (आर), लेखक",
+          "heading": "मानवाधिकारों का हनन..",
+          "description": "पैरोल एक कैदी का मौलिक अधिकार है । यह मौलिक अधिकारों का घोर उल्लंघन है जब इसे चुनिंदा रूप से आतंकवादियों को बिना किसी समस्या के दिया जाता है लेकिन आशाराम बापू जैसे हिंदू संत को नहीं ।"
+        },
+        {
+          "name": "डी.के. दुबे",
+          "image": "https://c.sachtak.com/images/web/image_146.jpg",
+          "designation": "लीगल एडवाईजर",
+          "heading": "..तो आशाराम बापूजी निर्दोष सिद्ध हो जाते",
+          "description": "तत्कालीन DCP अजयपाल लांबा ने एक किताब लिखी है, इस किताब में उन्होंने जो वर्जन दिया है, अगर वह कोर्ट में मान लिया जाता है तो आशाराम बापूजी निर्दोष सिद्ध हो जाते हैं और यह सिद्ध हो जाता है कि आशाराम बापूजी को जानबूझकर फँसाया गया है क्योंकि FIR और बयानों में बड़ा contradiction है ।"
+        }
+      ]
+    },
+    {
+      "id": "page4",
+      "role": "जानी-मानी हस्तियाँ",
+      "qrCode": "https://c.sachtak.com/images/web/qr_1.png",
+      "objDetails": [
+        {
+          "name": "सुब्रमण्यम स्वामी",
+          "image": "https://c.sachtak.com/images/web/layer_20.png",
+          "designation": "भारत के पूर्व कानून एवं न्यायमंत्री",
+          "heading": "21वीं सदी का सबसे बड़ा अन्याय..",
+          "description": "सार बात यह है कि आशाराम बापू के खिलाफ बलात्कार का फर्जी मामला है । लगभग 85 वर्ष की उम्र में जब उनकी अपील उच्च न्यायालय में लम्बित है तो उन्हें जमानत देने से इन्कार करना मानवाधिकार और कानून की आपराधिक अवहेलना है ।"
+        },
+        {
+          "name": "सुब्रमण्यम स्वामी",
+          "image": "https://c.sachtak.com/images/web/layer_17.png",
+          "designation": "भारत के पूर्व कानून एवं न्यायमंत्री",
+          "heading": "21वीं सदी का सबसे बड़ा अन्याय..",
+          "description": "सार बात यह है कि आशाराम बापू के खिलाफ बलात्कार का फर्जी मामला है । लगभग 85 वर्ष की उम्र में जब उनकी अपील उच्च न्यायालय में लम्बित है तो उन्हें जमानत देने से इन्कार करना मानवाधिकार और कानून की आपराधिक अवहेलना है ।"
+        }
+      ]
+    }
+  ],
+  "storyData2": [
+    {
+      "id": "page9",
+      "mainHeadline": "तथाकथित घटना की रात का सच ",
+      "description": "मेडिकल रिपोर्ट 15/08/2013 की तथाकथित घटना की रात करीब 9:00 से 12:00 बजे तक बापू आशारामजी 50-60 लोगों के बीच पहले सत्संग एवं बाद में मँगनी कार्यक्रम में थे । वहाँ उपस्थित व्यक्तियों की कोर्ट में हुई गवाही एवं उस समय के फोटोग्राफ इस बात की पुष्टि करते हैं । इस पुख्ता सबूत के विरुद्ध लड़की और उसके माता-पिता के बयानों के अलावा सरकार के पास कोई साक्ष्य (evidence) नहीं है ।",
+      "image": "https://c.sachtak.com/images/web/s5.png"
+    },
+    {
+      "id": "page10",
+      "mainHeadline": "लड़की के कॉल डिटेल्स बोल गये हकीकत",
+      "description": "मेडिकल रिपोर्ट  15 अगस्त 2013 की रात लड़की तथाकथित घटना का समय बताती है, 10-10:30 से 11:30-12:00 तक का लेकिन लड़की से संबंधित कॉल डिटेल्स जो कोर्ट में साबित (proved) हैं, वे दर्शाते हैं कि लड़की उस समय फोन पर किसी संदिग्ध व्यक्ति के साथ संपर्क में थी अर्थात् लड़की तथाकथित घटना के स्थान पर थी ही नहीं, वह तो अपने परिजनों के साथ थी व फोन पर बात तथा मैसेजेस करने में व्यस्त थी । कोर्ट ने जजमेंट के पैरा नंबर 339 में यह बात स्वीकार भी की है ।",
+      "image": "https://c.sachtak.com/images/web/s6.png"
+    },
+    {
+      "id": "page11",
+      "mainHeadline": "इन्वेस्टिगेशन एजेंसी ने छुपाये निर्दोषता के सबूत",
+      "description": "मेडिकल रिपोर्ट बापू आशारामजी की निर्दोषता का यह सत्य जिस नम्बर की कॉल डिटेल्स से उजागर हो रहा था, जाँच अधिकारी ने उस नम्बर की पूरे अगस्त महीने की कॉल डिटेल्स रिकोर्ड प्राप्त किये थे लेकिन कोर्ट में प्रस्तुत करते समय 13 अगस्त से 16 अगस्त 2013 की कॉल डिटेल्स छिपायी । अर्थात् तथाकथित घटना के 2 दिन पहले एवं 1 दिन बाद तक की कॉल डिटेल हटाकर चार्जशीट में लगायी गयी । यह जानबूझकर इसलिए किया गया कि बापूजी की निर्दोषता सिद्ध न हो सके । ",
+      "image": "https://c.sachtak.com/images/web/s2.png"
+    },
+    {
+      "id": "page12",
+      "mainHeadline": "लड़की की वीडियोग्राफी के सबूत गायब ",
+      "description": " दिल्ली में FIR लिखते समय लड़की की विडियोग्राफी की गयी थी लेकिन वह कोर्ट के रिकॉर्ड पर नहीं है । संदेहास्पद तरीके से उस विडियोग्राफी को गायब कर दिया गया । इतना ही नहीं, लड़की के जोधपुर में हुए पुलिस बयान की विडियोग्राफी की रिकॉर्डिंग में भी कई स्थानों पर छेड़छाड़ की गयी । ये पुख्ता सबूत कोर्ट के सामने आने पर भी इनको अनदेखा किया गया । ",
+      "image": "https://c.sachtak.com/images/web/s7.png"
+    },
+    {
+      "id": "page13",
+      "mainHeadline": "पुलिस ने फॉरेंसिक टेस्ट रिपोर्ट कोर्ट में प्रस्तुत क्यों नहीं की ?",
+      "description": "जब लड़की की तथाकथित घटनास्थल (कुटिया) में उपस्थिति सिद्ध करने के लिए कोई सबूत एवं गवाह नहीं था तब इन्वेस्टिगेशन एजेंसी को फुटप्रिंट या फिंगरप्रिंट जैसे फॉरेंसिक टेस्ट रिपोर्ट्स कोर्ट में प्रस्तुत करना अनिवार्य था लेकिन ऐसी कोई रिपोर्ट पुलिस द्वारा कोर्ट में प्रस्तुत नहीं की गयी । स्वयं इन्वेस्टिगेशन ऑफिसर चंचल मिश्रा ने कोर्ट के सामने इस बात को स्वीकार भी किया है । ",
+      "image": "https://c.sachtak.com/images/web/s3.png"
+    },
+    {
+      "id": "page14",
+      "mainHeadline": "लड़की बालिग, फिर भी लगाया POCSO",
+      "description": " लड़की के आयुसंबंधी जितने दस्तावेज़ कोर्ट के सामने हैं उनमें जन्मतारीख भिन्न-भिन्न पायी गयी है जबकि POCSO एक्ट में लड़की का आयु निर्धारण सबसे महत्त्वपूर्ण पहलू होता है । लेकिन बापू आशारामजी के केस में लड़की को बालिग सिद्ध कर रहे सारे प्रमाणित दस्तावेजों को नजरअंदाज करके एक ऐसे matriculation certificate के आधार पर सजा सुनाई गयी, जिसकी सत्यता कानूनी ढंग से प्रमाणित ही नहीं हुई । स्वयं लड़की के वकील ने CRPC की धारा 311 के तहत अर्जी लगाकर कहा था कि “हम इसकी सत्यता कोर्ट में सिद्ध नहीं कर पायें हैं” लेकिन जजमेंट में उसी अप्रमाणित दस्तावेज के आधार पर लड़की को नाबालिग मानकर बापूजी को सज़ा सुना दी गयी ।",
+      "image": "https://c.sachtak.com/images/web/s4.png"
+    }
+  ],
+  "adds": [
+    {
+      "name": "Shoes",
+      "image": "https://images.pexels.com/photos/5650041/pexels-photo-5650041.jpeg",
+      "description": "If a dog chews shoes whose shoes does he choose?"
+    }
+  ],
+  "articles": [
+    {
+      "title": "न घर, न कार... PM मोदी के पास इतनी है संपत्ति, चुनावी हलफनामे में बताया सबकुछ!",
+      "link": "https://www.aajtak.in/business/news/story/pm-narendra-modi-files-nomination-from-varanasi-know-prime-minister-net-worth-house-and-other-assets-tutc-1943662-2024-05-15",
+      "image": "https://akm-img-a-in.tosshub.com/aajtak/images/story/202405/66430cd8ad075-20240514-140350951-16x9.jpg?size=120:68",
+      "alt": "पीएम मोदी ने वाराणसी से लगातार तीसरी बार किया नॉमिनेशन"
+    },
+    {
+      "title": "न घर, न कार... PM मोदी के पास इतनी है संपत्ति, चुनावी हलफनामे में बताया सबकुछ!",
+      "link": "https://www.aajtak.in/business/news/story/pm-narendra-modi-files-nomination-from-varanasi-know-prime-minister-net-worth-house-and-other-assets-tutc-1943662-2024-05-15",
+      "image": "https://akm-img-a-in.tosshub.com/aajtak/images/story/202405/66430cd8ad075-20240514-140350951-16x9.jpg?size=120:68",
+      "alt": "पीएम मोदी ने वाराणसी से लगातार तीसरी बार किया नॉमिनेशन"
+    },
+    {
+      "title": "न घर, न कार... PM मोदी के पास इतनी है संपत्ति, चुनावी हलफनामे में बताया सबकुछ!",
+      "link": "https://www.aajtak.in/business/news/story/pm-narendra-modi-files-nomination-from-varanasi-know-prime-minister-net-worth-house-and-other-assets-tutc-1943662-2024-05-15",
+      "image": "https://akm-img-a-in.tosshub.com/aajtak/images/story/202405/66430cd8ad075-20240514-140350951-16x9.jpg?size=120:68",
+      "alt": "पीएम मोदी ने वाराणसी से लगातार तीसरी बार किया नॉमिनेशन"
+    }
+  ],
+  "rightarticles": [
+    {
+      "link": "https://www.aajtak.in/visualstories/entertainment/akanksha-puri-wants-to-get-married-soon-searching-groom-participated-in-mika-singh-swayamvar-breakup-tmovf-135937-15-05-2024",
+      "title": "मीका सिंह की बनने वाली थी दुल्हन, पर टूटा रिश्ता, अब शादी करना चाहती है एक्ट्रेस, बोली-कोई तो...",
+      "image": "https://akm-img-a-in.tosshub.com/sites/visualstory/wp/2024/04/mika-akanksha.jpg?size=120:68",
+      "alt": "मीका सिंह की बनने वाली थी दुल्हन, पर टूटा रिश्ता, अब शादी करना चाहती है एक्ट्रेस, बोली-कोई तो..."
+    },
+    {
+      "link": "https://www.aajtak.in/technology/tech-news/story/google-io-2024-project-astra-introduced-how-it-works-and-more-ttec-1944141-2024-05-15",
+      "title": "खोया हुआ सामान खोजने में मदद करेगा Google Astra, बड़े काम का है ये AI",
+      "image": "https://akm-img-a-in.tosshub.com/aajtak/images/story/202405/6643aa8364a89-project-astra-14163424-16x9.jpg?size=120:68",
+      "alt": "Project Astra का डेमो Google ने दिखाया है."
+    },
+    {
+      "link": "https://www.aajtak.in/rajasthan/story/all-14-officers-trapped-in-copper-mine-of-jhunjhunu-rescued-after-11-hours-of-rescue-operation-ntc-1944181-2024-05-15",
+      "title": "झुंझुनूं के कॉपर खदान में फंसे 14 अफसरों में से 8 निकाले गए, 3 को आई हैं गंभीर चोटें",
+      "image": "https://akm-img-a-in.tosshub.com/aajtak/images/story/202405/66441bd4dbc75-jhunjhunu-hcl-mine-rescue-152002540-16x9.png?size=120:68",
+      "alt": "Jhunjhunu HCL Mine Rescue"
+    },
+    {
+      "link": "https://www.aajtak.in/india/news/story/jaishankar-on-pok-unrest-protests-in-pok-jammu-kashmir-india-pakistan-article-370-ntc-1944174-2024-05-15",
+      "title": "'370 हटने के बाद बदले हुए कश्मीर को वो भी देख रहे हैं...', PoK विवाद पर बोले जयशंकर",
+      "image": "https://akm-img-a-in.tosshub.com/aajtak/images/story/202405/664413564560f-jaishankar-15434991-16x9.jpg?size=120:68",
+      "alt": "Jaishankar "
+    },
+    {
+      "link": "https://www.aajtak.in/sports/cricket/story/rishabh-pant-says-we-have-better-chance-of-ipl-2024-playoffs-qualifying-if-i-played-against-rcb-team-dc-vs-lsg-ipl-2024-match-ban-by-bcci-tspo-1944189-2024-05-15",
+      "title": "'तो प्लेऑफ में होते...', ऋषभ पंत ने क्यों दिया ऐसा बयान? IPL के बैन पर छलका दर्द ",
+      "image": "https://akm-img-a-in.tosshub.com/aajtak/images/story/202405/66441c409cbb4-rishabh-pant-ipl-2024-dc-vs-lsg-152151154-16x9.jpg?size=120:68",
+      "alt": " Rishabh Pant IPL 2024 DC vs LSG"
+    },
+    {
+      "link": "https://www.aajtak.in/visualstories/entertainment/akanksha-puri-wants-to-get-married-soon-searching-groom-participated-in-mika-singh-swayamvar-breakup-tmovf-135937-15-05-2024",
+      "title": "मीका सिंह की बनने वाली थी दुल्हन, पर टूटा रिश्ता, अब शादी करना चाहती है एक्ट्रेस, बोली-कोई तो...",
+      "image": "https://akm-img-a-in.tosshub.com/sites/visualstory/wp/2024/04/mika-akanksha.jpg?size=120:68",
+      "alt": "मीका सिंह की बनने वाली थी दुल्हन, पर टूटा रिश्ता, अब शादी करना चाहती है एक्ट्रेस, बोली-कोई तो..."
+    },
+    {
+      "link": "https://www.aajtak.in/technology/tech-news/story/google-io-2024-project-astra-introduced-how-it-works-and-more-ttec-1944141-2024-05-15",
+      "title": "खोया हुआ सामान खोजने में मदद करेगा Google Astra, बड़े काम का है ये AI",
+      "image": "https://akm-img-a-in.tosshub.com/aajtak/images/story/202405/6643aa8364a89-project-astra-14163424-16x9.jpg?size=120:68",
+      "alt": "Project Astra का डेमो Google ने दिखाया है."
+    },
+    {
+      "link": "https://www.aajtak.in/rajasthan/story/all-14-officers-trapped-in-copper-mine-of-jhunjhunu-rescued-after-11-hours-of-rescue-operation-ntc-1944181-2024-05-15",
+      "title": "झुंझुनूं के कॉपर खदान में फंसे 14 अफसरों में से 8 निकाले गए, 3 को आई हैं गंभीर चोटें",
+      "image": "https://akm-img-a-in.tosshub.com/aajtak/images/story/202405/66441bd4dbc75-jhunjhunu-hcl-mine-rescue-152002540-16x9.png?size=120:68",
+      "alt": "Jhunjhunu HCL Mine Rescue"
+    }
+  ],
+  "mainstoryheading": [
+    {
+      "title": "दश्वामेघ घाट पर PM मोदी ने की मां गंगा की पूजा, नीतीश कुमार अस्वस्थ, प्रधानमंत्री के नामांकन में नहीं हो सकेंगे शामिल",
+      "link": "https://www.aajtak.in/elections/lok-sabha-election-2024/story/pm-modi-nomination-filing-from-varanasi-live-updates-lok-sabha-chunav-ntc-1943504-2024-05-14",
+      "image": "https://akm-img-a-in.tosshub.com/aajtak/images/breaking_news/202405/6642e9a399319-pm-modi-143338739-16x9.png?size=360:205",
+      "description": "पीएम मोदी आज लोकसभा चुनाव के लिए वाराणसी से नामांकन करने जा रहे हैं. प्रधानमंत्री तीसरी बार काशी से मैदान में उतरे हैं. नामांकन से एक दिन पहले पीएम मोदी वाराणसी में भव्य रोड शो भी कर चुके हैं...."
+    }
+  ],
+  "newsItems": [
+    {
+      "title": "एक लड़की, दो बॉयफ्रेंड और रात की कहानी... गर्लफ्रेंड ने कॉल कर बुलाया, युवक पहुंचा तो...",
+      "href": "https://www.aajtak.in/india/jharkhand/story/girlfriend-called-at-night-when-boy-came-to-meet-her-girl-was-with-another-boyfriend-and-then-lcla-1944283-2024-05-15"
+    },
+    {
+      "title": "'2019 में इंडिया ने किया था सीक्रेट ऑपरेशन', मालदीव के रक्षा मंत्री के दावे का भारत ने दिया ये जवाब",
+      "href": "https://www.aajtak.in/world/story/india-high-commission-denied-ghassan-maumoon-claims-says-no-unauthorised-operation-by-indian-military-pilots-in-maldives-ntc-1944243-2024-05-15"
+    },
+    {
+      "title": "उम्र से छोटा दिखने के लिए रोज खाएं ये एक चीज, बुढ़ापा भागेगा दूर",
+      "href": "https://www.aajtak.in/visualstories/lifestyle/eat-this-one-thing-daily-to-look-younger-than-your-age-old-age-will-run-away-anti-ageing-tvisp-135532-15-05-2024"
+    },
+    {
+      "title": "ऐसे हुई थी माधुरी दीक्षित के 'चोली के पीछे क्या है' गाने की शूटिंग, 31 साल बाद भी कायम है चार्म",
+      "href": "https://www.aajtak.in/visualstories/entertainment/madhuri-dixit-choli-ke-peeche-kya-hai-shooting-bts-video-iconic-song-recreate-after-31-years-in-kareena-kapoor-film-crew-video-tmovf-135946-15-05-2024"
+    },
+    {
+      "title": "एक लड़की, दो बॉयफ्रेंड और रात की कहानी... गर्लफ्रेंड ने कॉल कर बुलाया, युवक पहुंचा तो...",
+      "href": "https://www.aajtak.in/india/jharkhand/story/girlfriend-called-at-night-when-boy-came-to-meet-her-girl-was-with-another-boyfriend-and-then-lcla-1944283-2024-05-15"
+    },
+    {
+      "title": "'2019 में इंडिया ने किया था सीक्रेट ऑपरेशन', मालदीव के रक्षा मंत्री के दावे का भारत ने दिया ये जवाब",
+      "href": "https://www.aajtak.in/world/story/india-high-commission-denied-ghassan-maumoon-claims-says-no-unauthorised-operation-by-indian-military-pilots-in-maldives-ntc-1944243-2024-05-15"
+    },
+    {
+      "title": "उम्र से छोटा दिखने के लिए रोज खाएं ये एक चीज, बुढ़ापा भागेगा दूर",
+      "href": "https://www.aajtak.in/visualstories/lifestyle/eat-this-one-thing-daily-to-look-younger-than-your-age-old-age-will-run-away-anti-ageing-tvisp-135532-15-05-2024"
+    },
+    {
+      "title": "ऐसे हुई थी माधुरी दीक्षित के 'चोली के पीछे क्या है' गाने की शूटिंग, 31 साल बाद भी कायम है चार्म",
+      "href": "https://www.aajtak.in/visualstories/entertainment/madhuri-dixit-choli-ke-peeche-kya-hai-shooting-bts-video-iconic-song-recreate-after-31-years-in-kareena-kapoor-film-crew-video-tmovf-135946-15-05-2024"
+    }
+  ],
+  "playerItems": [
+    {
+      "title": "'अमित शाह की हर सीट पर नजर, वो राजनीति के चाणक्य...', जौनपुर में बोले धनंजय सिंह",
+      "href": "https://www.aajtak.in/uttar-pradesh/story/amit-shah-eye-on-every-seat-he-is-chanakya-of-politics-said-dhananjay-singh-after-announcing-support-to-bjp-in-jaunpur-lclam-1944268-2024-05-15",
+      "imgSrc": "https://akm-img-a-in.tosshub.com/aajtak/images/story/202405/66444ac388aca-20240515-154017922-16x9.jpg?size=175:98",
+      "altText": "धनंजय सिंह ने बीजेपी को समर्थन देने का ऐलान किया"
+    },
+    {
+      "title": "आ गई गुड न्यूज... तूफानी तेजी से आगे बढ़ेगी इंडियन इकोनॉमी, अब मूडीज ने लगाई मुहर",
+      "href": "https://www.aajtak.in/business/news/story/good-news-for-india-moodys-ratings-new-growth-forecast-for-fastest-growing-indian-economy-tutc-1944227-2024-05-15",
+      "imgSrc": "https://akm-img-a-in.tosshub.com/aajtak/images/story/202405/66443212525d6-20240515-155457205-16x9.jpg?size=175:98",
+      "altText": "दुनिया में सबसे तेजी से आगे बढ़ती हुई अर्थव्यवस्था बना हुआ है भारत"
+    },
+    {
+      "title": "एनकाउंटर में इंस्पेक्टर के कान के पास से गुजरी बुलेट... पुलिस की जवाबी फायरिंग में शूटर को लगी गोली",
+      "href": "https://www.aajtak.in/madhya-pradesh/story/two-contract-killers-arrested-after-encounter-with-police-in-mps-indore-lcln-1944256-2024-05-15",
+      "imgSrc": "https://akm-img-a-in.tosshub.com/aajtak/images/story/202405/6644425c34fe2-20240515-150426930-16x9.jpg?size=175:98",
+      "altText": "हत्या के आरोपियों ने पुलिस पर की फायरिंग. (क्षतिग्रस्त पुलिस वाहन))"
+    }
+  ],
+  "": [
+    {
+      "link": "https://www.aajtak.in/visualstories/sports/virat-kohli-angry-after-seeing-rishabh-pant-bat-shown-in-ipl-2024-rcb-vs-dc-match-reaction-video-viral-tspo-135961-15-05-2024",
+      "image": "https://akm-img-a-in.tosshub.com/sites/visualstory/wp/2024/05/cropped-kohli-Pant-grab-2-vs.jpg?size=138:184",
+      "title": "ऋषभ की हरकत देख भड़के कोहली! IPL मैच में दिखाया बल्ला, VIDEO"
+    },
+    {
+      "link": "https://www.aajtak.in/visualstories/auto/massive-challan-at-petrol-pumps-if-vehicle-owners-found-without-valid-puc-certificate-135953-15-05-2024",
+      "image": "https://akm-img-a-in.tosshub.com/sites/visualstory/wp/2024/03/cropped-Petrol-Pump-PUC-Certificate-amp.jpg?size=138:184",
+      "title": "पेट्रोल पंप पर पहुंचते ही कटेगा 10,000 का चालान! तत्काल बनवा लें गाड़ी का ये पेपर"
+    },
+    {
+      "link": "https://www.aajtak.in/visualstories/sports/virat-kohli-angry-after-seeing-rishabh-pant-bat-shown-in-ipl-2024-rcb-vs-dc-match-reaction-video-viral-tspo-135961-15-05-2024",
+      "image": "https://akm-img-a-in.tosshub.com/sites/visualstory/wp/2024/05/cropped-kohli-Pant-grab-2-vs.jpg?size=138:184",
+      "title": "ऋषभ की हरकत देख भड़के कोहली! IPL मैच में दिखाया बल्ला, VIDEO"
+    },
+    {
+      "link": "https://www.aajtak.in/visualstories/sports/virat-kohli-angry-after-seeing-rishabh-pant-bat-shown-in-ipl-2024-rcb-vs-dc-match-reaction-video-viral-tspo-135961-15-05-2024",
+      "image": "https://akm-img-a-in.tosshub.com/sites/visualstory/wp/2024/05/cropped-kohli-Pant-grab-2-vs.jpg?size=138:184",
+      "title": "ऋषभ की हरकत देख भड़के कोहली! IPL मैच में दिखाया बल्ला, VIDEO"
+    },
+    {
+      "link": "https://www.aajtak.in/visualstories/auto/massive-challan-at-petrol-pumps-if-vehicle-owners-found-without-valid-puc-certificate-135953-15-05-2024",
+      "image": "https://akm-img-a-in.tosshub.com/sites/visualstory/wp/2024/03/cropped-Petrol-Pump-PUC-Certificate-amp.jpg?size=138:184",
+      "title": "पेट्रोल पंप पर पहुंचते ही कटेगा 10,000 का चालान! तत्काल बनवा लें गाड़ी का ये पेपर"
+    },
+    {
+      "link": "https://www.aajtak.in/visualstories/sports/virat-kohli-angry-after-seeing-rishabh-pant-bat-shown-in-ipl-2024-rcb-vs-dc-match-reaction-video-viral-tspo-135961-15-05-2024",
+      "image": "https://akm-img-a-in.tosshub.com/sites/visualstory/wp/2024/05/cropped-kohli-Pant-grab-2-vs.jpg?size=138:184",
+      "title": "ऋषभ की हरकत देख भड़के कोहली! IPL मैच में दिखाया बल्ला, VIDEO"
+    },
+    {
+      "link": "https://www.aajtak.in/visualstories/sports/virat-kohli-angry-after-seeing-rishabh-pant-bat-shown-in-ipl-2024-rcb-vs-dc-match-reaction-video-viral-tspo-135961-15-05-2024",
+      "image": "https://akm-img-a-in.tosshub.com/sites/visualstory/wp/2024/05/cropped-kohli-Pant-grab-2-vs.jpg?size=138:184",
+      "title": "ऋषभ की हरकत देख भड़के कोहली! IPL मैच में दिखाया बल्ला, VIDEO"
+    },
+    {
+      "link": "https://www.aajtak.in/visualstories/auto/massive-challan-at-petrol-pumps-if-vehicle-owners-found-without-valid-puc-certificate-135953-15-05-2024",
+      "image": "https://akm-img-a-in.tosshub.com/sites/visualstory/wp/2024/03/cropped-Petrol-Pump-PUC-Certificate-amp.jpg?size=138:184",
+      "title": "पेट्रोल पंप पर पहुंचते ही कटेगा 10,000 का चालान! तत्काल बनवा लें गाड़ी का ये पेपर"
+    },
+    {
+      "link": "https://www.aajtak.in/visualstories/sports/virat-kohli-angry-after-seeing-rishabh-pant-bat-shown-in-ipl-2024-rcb-vs-dc-match-reaction-video-viral-tspo-135961-15-05-2024",
+      "image": "https://akm-img-a-in.tosshub.com/sites/visualstory/wp/2024/05/cropped-kohli-Pant-grab-2-vs.jpg?size=138:184",
+      "title": "ऋषभ की हरकत देख भड़के कोहली! IPL मैच में दिखाया बल्ला, VIDEO"
+    },
+    {
+      "link": "https://www.aajtak.in/visualstories/sports/virat-kohli-angry-after-seeing-rishabh-pant-bat-shown-in-ipl-2024-rcb-vs-dc-match-reaction-video-viral-tspo-135961-15-05-2024",
+      "image": "https://akm-img-a-in.tosshub.com/sites/visualstory/wp/2024/05/cropped-kohli-Pant-grab-2-vs.jpg?size=138:184",
+      "title": "ऋषभ की हरकत देख भड़के कोहली! IPL मैच में दिखाया बल्ला, VIDEO"
+    },
+    {
+      "link": "https://www.aajtak.in/visualstories/auto/massive-challan-at-petrol-pumps-if-vehicle-owners-found-without-valid-puc-certificate-135953-15-05-2024",
+      "image": "https://akm-img-a-in.tosshub.com/sites/visualstory/wp/2024/03/cropped-Petrol-Pump-PUC-Certificate-amp.jpg?size=138:184",
+      "title": "पेट्रोल पंप पर पहुंचते ही कटेगा 10,000 का चालान! तत्काल बनवा लें गाड़ी का ये पेपर"
+    },
+    {
+      "link": "https://www.aajtak.in/visualstories/sports/virat-kohli-angry-after-seeing-rishabh-pant-bat-shown-in-ipl-2024-rcb-vs-dc-match-reaction-video-viral-tspo-135961-15-05-2024",
+      "image": "https://akm-img-a-in.tosshub.com/sites/visualstory/wp/2024/05/cropped-kohli-Pant-grab-2-vs.jpg?size=138:184",
+      "title": "ऋषभ की हरकत देख भड़के कोहली! IPL मैच में दिखाया बल्ला, VIDEO"
+    }
+  ],
+  "visualstories": [
+    {
+      "link": "https://www.aajtak.in/visualstories/sports/virat-kohli-angry-after-seeing-rishabh-pant-bat-shown-in-ipl-2024-rcb-vs-dc-match-reaction-video-viral-tspo-135961-15-05-2024",
+      "image": "https://akm-img-a-in.tosshub.com/sites/visualstory/wp/2024/05/cropped-kohli-Pant-grab-2-vs.jpg?size=138:184",
+      "title": "ऋषभ की हरकत देख भड़के कोहली! IPL मैच में दिखाया बल्ला, VIDEO"
+    },
+    {
+      "link": "https://www.aajtak.in/visualstories/auto/massive-challan-at-petrol-pumps-if-vehicle-owners-found-without-valid-puc-certificate-135953-15-05-2024",
+      "image": "https://akm-img-a-in.tosshub.com/sites/visualstory/wp/2024/03/cropped-Petrol-Pump-PUC-Certificate-amp.jpg?size=138:184",
+      "title": "पेट्रोल पंप पर पहुंचते ही कटेगा 10,000 का चालान! तत्काल बनवा लें गाड़ी का ये पेपर"
+    },
+    {
+      "link": "https://www.aajtak.in/visualstories/sports/virat-kohli-angry-after-seeing-rishabh-pant-bat-shown-in-ipl-2024-rcb-vs-dc-match-reaction-video-viral-tspo-135961-15-05-2024",
+      "image": "https://akm-img-a-in.tosshub.com/sites/visualstory/wp/2024/05/cropped-kohli-Pant-grab-2-vs.jpg?size=138:184",
+      "title": "ऋषभ की हरकत देख भड़के कोहली! IPL मैच में दिखाया बल्ला, VIDEO"
+    },
+    {
+      "link": "https://www.aajtak.in/visualstories/sports/virat-kohli-angry-after-seeing-rishabh-pant-bat-shown-in-ipl-2024-rcb-vs-dc-match-reaction-video-viral-tspo-135961-15-05-2024",
+      "image": "https://akm-img-a-in.tosshub.com/sites/visualstory/wp/2024/05/cropped-kohli-Pant-grab-2-vs.jpg?size=138:184",
+      "title": "ऋषभ की हरकत देख भड़के कोहली! IPL मैच में दिखाया बल्ला, VIDEO"
+    },
+    {
+      "link": "https://www.aajtak.in/visualstories/auto/massive-challan-at-petrol-pumps-if-vehicle-owners-found-without-valid-puc-certificate-135953-15-05-2024",
+      "image": "https://akm-img-a-in.tosshub.com/sites/visualstory/wp/2024/03/cropped-Petrol-Pump-PUC-Certificate-amp.jpg?size=138:184",
+      "title": "पेट्रोल पंप पर पहुंचते ही कटेगा 10,000 का चालान! तत्काल बनवा लें गाड़ी का ये पेपर"
+    },
+    {
+      "link": "https://www.aajtak.in/visualstories/sports/virat-kohli-angry-after-seeing-rishabh-pant-bat-shown-in-ipl-2024-rcb-vs-dc-match-reaction-video-viral-tspo-135961-15-05-2024",
+      "image": "https://akm-img-a-in.tosshub.com/sites/visualstory/wp/2024/05/cropped-kohli-Pant-grab-2-vs.jpg?size=138:184",
+      "title": "ऋषभ की हरकत देख भड़के कोहली! IPL मैच में दिखाया बल्ला, VIDEO"
+    },
+    {
+      "link": "https://www.aajtak.in/visualstories/sports/virat-kohli-angry-after-seeing-rishabh-pant-bat-shown-in-ipl-2024-rcb-vs-dc-match-reaction-video-viral-tspo-135961-15-05-2024",
+      "image": "https://akm-img-a-in.tosshub.com/sites/visualstory/wp/2024/05/cropped-kohli-Pant-grab-2-vs.jpg?size=138:184",
+      "title": "ऋषभ की हरकत देख भड़के कोहली! IPL मैच में दिखाया बल्ला, VIDEO"
+    },
+    {
+      "link": "https://www.aajtak.in/visualstories/auto/massive-challan-at-petrol-pumps-if-vehicle-owners-found-without-valid-puc-certificate-135953-15-05-2024",
+      "image": "https://akm-img-a-in.tosshub.com/sites/visualstory/wp/2024/03/cropped-Petrol-Pump-PUC-Certificate-amp.jpg?size=138:184",
+      "title": "पेट्रोल पंप पर पहुंचते ही कटेगा 10,000 का चालान! तत्काल बनवा लें गाड़ी का ये पेपर"
+    },
+    {
+      "link": "https://www.aajtak.in/visualstories/sports/virat-kohli-angry-after-seeing-rishabh-pant-bat-shown-in-ipl-2024-rcb-vs-dc-match-reaction-video-viral-tspo-135961-15-05-2024",
+      "image": "https://akm-img-a-in.tosshub.com/sites/visualstory/wp/2024/05/cropped-kohli-Pant-grab-2-vs.jpg?size=138:184",
+      "title": "ऋषभ की हरकत देख भड़के कोहली! IPL मैच में दिखाया बल्ला, VIDEO"
+    },
+    {
+      "link": "https://www.aajtak.in/visualstories/sports/virat-kohli-angry-after-seeing-rishabh-pant-bat-shown-in-ipl-2024-rcb-vs-dc-match-reaction-video-viral-tspo-135961-15-05-2024",
+      "image": "https://akm-img-a-in.tosshub.com/sites/visualstory/wp/2024/05/cropped-kohli-Pant-grab-2-vs.jpg?size=138:184",
+      "title": "ऋषभ की हरकत देख भड़के कोहली! IPL मैच में दिखाया बल्ला, VIDEO"
+    },
+    {
+      "link": "https://www.aajtak.in/visualstories/auto/massive-challan-at-petrol-pumps-if-vehicle-owners-found-without-valid-puc-certificate-135953-15-05-2024",
+      "image": "https://akm-img-a-in.tosshub.com/sites/visualstory/wp/2024/03/cropped-Petrol-Pump-PUC-Certificate-amp.jpg?size=138:184",
+      "title": "पेट्रोल पंप पर पहुंचते ही कटेगा 10,000 का चालान! तत्काल बनवा लें गाड़ी का ये पेपर"
+    },
+    {
+      "link": "https://www.aajtak.in/visualstories/sports/virat-kohli-angry-after-seeing-rishabh-pant-bat-shown-in-ipl-2024-rcb-vs-dc-match-reaction-video-viral-tspo-135961-15-05-2024",
+      "image": "https://akm-img-a-in.tosshub.com/sites/visualstory/wp/2024/05/cropped-kohli-Pant-grab-2-vs.jpg?size=138:184",
+      "title": "ऋषभ की हरकत देख भड़के कोहली! IPL मैच में दिखाया बल्ला, VIDEO"
+    }
+  ],
+  "des": [
+    { "label": "News", "href": "/news" },
+    { "label": "Market", "href": "/market" },
+    { "label": "Petrol", "href": "/petrol" },
+    { "label": "Elections", "href": "/elections" },
+    { "label": "Gold/Silver", "href": "/silver" },
+    { "label": "Sport", "href": "/sports" },
+    { "label": "Weather", "href": "/weather" }
+  ],
+  "info": {
+    "_postman_id": "12345678-1234-1234-1234-1234567890ab",
+    "name": "My API Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "id": 1,
+      "name": "My API Endpoints",
+      "item": [
+        {
+          "id": 1,
+          "objDetails": {
+            "name": "Get Users",
+            "requestMethod": "GET",
+            "requestAuthType": "Bearer Token",
+            "requestBodyMode": "urlencoded",
+            "requestBodyRaw": "{}",
+            "requestUrlRaw": "http://localhost:5050/users"
+          },
+          "requestUrlPath": ["users"],
+          "requestUrlHost": ["api", "example", "com"],
+          "requestHeader": [
+            {
+              "id": "1",
+              "key": "",
+              "value": "",
+              "description": "",
+              "examples": [
+                {
+                  "id": "1",
+                  "key": "userToken",
+                  "value": "ksj",
+                  "description": "sd"
+                }
+              ]
+            }
+          ],
+          "requestAuthBasic": [
+            {
+              "id": "1",
+              "key": "",
+              "value": "",
+              "type": ""
+            }
+          ],
+          "requestApiKey": [
+            {
+              "id": "1",
+              "key": "",
+              "value": "",
+              "addTo": ""
+            }
+          ],
+          "requestBearerToken": [
+            {
+              "token": "asasdfdjwu2i2"
+            }
+          ],
+
+          "requestBodyFormData": [
+            {
+              "id": "1",
+              "key": "",
+              "value": "",
+              "type": ""
+            }
+          ],
+          "requestUrlEncoded": [
+            {
+              "id": "1",
+              "key": "student_id",
+              "value": "650e393339fba7ac555c4f87",
+              "type": "text"
+            }
+          ],
+          "requestUrlQuery": [
+            {
+              "id": "1",
+              "key": "",
+              "value": "",
+              "description": ""
+            }
+          ],
+          "response": [
+            {
+              "id": 1,
+              "name": "Untitled Response",
+              "originalRequestMethod": "POST",
+              "originalRequestHeader": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "originalRequestBodyMode": "raw",
+              "originalRequestBodyRaw": "{\"name\": \"John Doe\", \"email\": \"john@example.com\"}",
+              "originalRequestUrlRaw": "api.example.com/users",
+              "originalRequestUrlHost": ["api", "example", "com"],
+              "originalRequestUrlPath": ["users"]
+            },
+            {
+              "id": 2,
+              "name": "response1",
+              "originalRequestMethod": "POST",
+              "originalRequestHeader": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "originalRequestBodyMode": "raw",
+              "originalRequestBodyRaw": "{\"name\": \"John Doe\", \"email\": \"john@example.com\"}",
+              "originalRequestUrlRaw": "api.example.com/users",
+              "originalRequestUrlHost": ["api", "example", "com"],
+              "originalRequestUrlPath": ["users"]
+            }
+          ],
+          "examples": [
+            {
+              "request": [
+                "{\"id\": 1, \"username\": \"john_doe\", \"email\": \"john@example.com\", \"status\": \"active\"}"
+              ],
+              "response": [
+                {
+                  "id": 1,
+                  "Code": 400,
+                  "Description": "Invalid ID Supplied"
+                },
+                {
+                  "id": 2,
+                  "Code": 404,
+                  "Description": "Not Found"
+                }
+              ]
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "// Perform tests here",
+                  "pm.test('Status code is 200', function () {",
+                  "    pm.response.to.have.status(200);",
+                  "});",
+                  "// Add more tests as needed"
+                ]
+              }
+            },
+            {
+              "listen": "script",
+              "script": {
+                "type": "text/javascript",
+                "exec": ["// Add scripts as needed"]
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "objDetails": {
+            "name": "Create User",
+            "requestMethod": "POST",
+            "requestAuthType": "Api Key",
+            "requestBodyMode": "raw",
+            "requestBodyRaw": "{\"name\": \"John Doe\", \"email\": \"john@example.com\"}",
+            "requestUrlRaw": "https://api.example.com/users",
+            "requestUrlHost": ["api", "example", "com"],
+            "requestUrlPath": ["users"]
+          },
+          "requestHeader": [
+            {
+              "id": "1",
+              "key": "Content-Type",
+              "value": "application/json",
+              "description": "",
+              "examples": [
+                {
+                  "id": "1",
+                  "key": "userToken",
+                  "value": "ksj",
+                  "description": "sd"
+                }
+              ]
+            }
+          ],
+          "requestApiKey": [
+            {
+              "id": "1",
+
+              "key": "username",
+              "value": "kuldeepyadav",
+              "addTo": "Header"
+            }
+          ],
+          "requestAuthBasic": [
+            {
+              "id": "1",
+
+              "key": "",
+              "value": "",
+              "type": ""
+            }
+          ],
+          "requestBearerToken": [
+            {
+              "token": ""
+            }
+          ],
+
+          "requestBodyFormData": [
+            {
+              "id": "1",
+
+              "key": "",
+              "value": "",
+              "type": ""
+            }
+          ],
+          "requestUrlEncoded": [
+            {
+              "id": "1",
+              "key": "",
+              "value": "",
+              "type": ""
+            }
+          ],
+          "requestUrlQuery": [
+            {
+              "id": "1",
+
+              "key": "",
+              "value": "",
+              "description": ""
+            }
+          ],
+          "response": [],
+          "examples": [
+            {
+              "request": [
+                "{\"id\": 1, \"username\": \"john_doe\", \"email\": \"john@example.com\", \"status\": \"active\"}"
+              ],
+              "response": [
+                {
+                  "id": 1,
+                  "Code": 400,
+                  "Description": "Invalid ID Supplied"
+                },
+                {
+                  "id": 2,
+                  "Code": 404,
+                  "Description": "Invalid ID Supplied"
+                }
+              ]
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "// Perform tests here",
+                  "pm.test('Status code is 201', function () {",
+                  "    pm.response.to.have.status(201);",
+                  "});",
+                  "// Add more tests as needed"
+                ]
+              }
+            },
+            {
+              "listen": "script",
+              "script": {
+                "type": "text/javascript",
+                "exec": ["// Add scripts as needed"]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Student Api",
+      "item": [
+        {
+          "id": 1,
+          "objDetails": {
+            "name": "Get Students",
+            "requestMethod": "GET",
+            "requestAuthType": "",
+            "requestBodyMode": "form-data",
+            "requestBodyRaw": "{}",
+            "requestUrlRaw": "https://fakestoreapi.com/products/1"
+          },
+          "requestHeader": [
+            {
+              "id": "1",
+              "key": "Content-Type",
+              "value": "application/json",
+              "description": "",
+              "examples": [
+                {
+                  "id": "1",
+                  "key": "userToken",
+                  "value": "ksj",
+                  "description": "sd"
+                }
+              ]
+            }
+          ],
+          "requestAuthBasic": [
+            {
+              "id": "1",
+              "key": "",
+              "value": "",
+              "type": ""
+            }
+          ],
+          "requestApiKey": [
+            {
+              "id": "1",
+              "key": "",
+              "value": "",
+              "addTo": ""
+            }
+          ],
+          "requestBearerToken": [
+            {
+              "token": ""
+            }
+          ],
+
+          "requestBodyFormData": [
+            {
+              "id": "1",
+              "key": "",
+              "value": "",
+              "type": ""
+            }
+          ],
+          "requestUrlEncoded": [
+            {
+              "id": "1",
+              "key": "",
+              "value": "",
+              "type": ""
+            }
+          ],
+          "requestUrlHost": ["localhost"],
+          "requestUrlPath": ["users", "get-students"],
+          "requestUrlQuery": [
+            {
+              "id": "1",
+              "key": "",
+              "value": "",
+              "description": ""
+            }
+          ],
+          "response": [],
+          "examples": [
+            {
+              "request": [
+                "{\"id\": 1, \"username\": \"john_doe\", \"email\": \"john@example.com\", \"status\": \"active\"}"
+              ],
+              "response": [
+                {
+                  "id": 1,
+                  "Code": 400,
+                  "Description": "Invalid ID Supplied"
+                },
+                {
+                  "id": 2,
+                  "Code": 404,
+                  "Description": "Invalid ID Supplied"
+                }
+              ]
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "// Perform tests here",
+                  "pm.test('Status code is 200', function () {",
+                  "    pm.response.to.have.status(200);",
+                  "});",
+                  "// Add more tests as needed"
+                ]
+              }
+            },
+            {
+              "listen": "script",
+              "script": {
+                "type": "text/javascript",
+                "exec": ["// Add scripts as needed"]
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "objDetails": {
+            "name": "Update user",
+            "requestMethod": "POST",
+            "requestAuthType": "Bearer Token",
+            "requestBodyMode": "raw",
+            "requestBodyRaw": "{\"name\": \"John Doe\", \"email\": \"john@example.com\"}",
+            "requestUrlRaw": "https://api.example.com/users"
+          },
+          "requestHeader": [
+            {
+              "id": "1",
+              "key": "Content-Type",
+              "value": "application/json",
+              "description": "",
+              "examples": [
+                {
+                  "id": "1",
+                  "key": "userToken",
+                  "value": "ksj",
+                  "description": "sd"
+                }
+              ]
+            }
+          ],
+          "requestBearerToken": [
+            {
+              "token": "asasdfdjwu2i2"
+            }
+          ],
+          "requestAuthBasic": [
+            {
+              "id": "1",
+              "key": "",
+              "value": "",
+              "type": ""
+            }
+          ],
+          "requestApiKey": [
+            {
+              "id": "1",
+              "key": "",
+              "value": "",
+              "addTo": ""
+            }
+          ],
+
+          "requestUrlHost": ["api", "example", "com"],
+          "requestBodyFormData": [
+            {
+              "id": "1",
+              "key": "",
+              "value": "",
+              "type": ""
+            }
+          ],
+          "requestUrlEncoded": [
+            {
+              "id": "1",
+              "key": "",
+              "value": "",
+              "type": ""
+            }
+          ],
+          "requestUrlPath": ["users"],
+          "requestUrlQuery": [
+            {
+              "id": "1",
+              "key": "",
+              "value": "",
+              "description": ""
+            }
+          ],
+          "response": [],
+          "examples": [
+            {
+              "request": [
+                "{\"id\": 1, \"username\": \"john_doe\", \"email\": \"john@example.com\", \"status\": \"active\"}"
+              ],
+              "response": [
+                {
+                  "id": 1,
+                  "Code": 400,
+                  "Description": "Invalid ID Supplied"
+                },
+                {
+                  "id": 2,
+                  "Code": 404,
+                  "Description": "Invalid ID Supplied"
+                }
+              ]
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "// Perform tests here\r",
+                  "pm.test('Status code is 201', function () { \r",
+                  "    pm.response.to.have.status(201);",
+                  "});\r",
+                  "// Add more tests as needed"
+                ]
+              }
+            },
+            {
+              "listen": "script",
+              "script": {
+                "type": "text/javascript",
+                "exec": ["// Add scripts as needed"]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "0001",
+      "name": "Design Homepage",
+      "details": "Create wireframes and design mockups for the homepage.",
+      "isPause": false,
+      "testCase": [
+        {
+          "id": 1,
+          "value": "Write Test Case list"
+        },
+        {
+          "id": 2,
+          "value": "Write code for test cases"
+        },
+        {
+          "id": 3,
+          "value": "Actual Implementation"
+        },
+        {
+          "id": 4,
+          "value": "Review"
+        },
+        {
+          "id": 5,
+          "value": "Approval"
+        }
+      ],
+      "time": 4800
+    },
+
+    {
+      "id": "0002",
+      "name": "Implement Authentication",
+      "details": "Develop login and registration functionalities.",
+      "isPause": false,
+      "testCase": [
+        {
+          "id": 1,
+          "value": "Write Test Case list"
+        },
+        {
+          "id": 2,
+          "value": "Write code for test cases"
+        },
+        {
+          "id": 3,
+          "value": "Actual Implementation"
+        },
+        {
+          "id": 4,
+          "value": "Review"
+        },
+        {
+          "id": 5,
+          "value": "Approval"
+        }
+      ],
+      "time": 1200
+    },
+
+    {
+      "id": "0003",
+      "name": "Write Unit Tests",
+      "details": "Write unit tests to ensure code quality and reliability.",
+      "isPause": false,
+      "testCase": [
+        {
+          "id": 1,
+          "value": "Write Test Case list"
+        },
+        {
+          "id": 2,
+          "value": "Write code for test cases"
+        },
+        {
+          "id": 3,
+          "value": "Actual Implementation"
+        },
+        {
+          "id": 4,
+          "value": "Review"
+        },
+        {
+          "id": 5,
+          "value": "Approval"
+        }
+      ],
+      "time": 1800
+    },
+
+    {
+      "id": "0004",
+      "name": "Optimize Database Queries",
+      "details": "Identify and optimize slow-performing database queries.",
+      "isPause": false,
+      "testCase": [
+        {
+          "id": 1,
+          "value": "Write Test Case list"
+        },
+        {
+          "id": 2,
+          "value": "Write code for test cases"
+        },
+        {
+          "id": 3,
+          "value": "Actual Implementation"
+        },
+        {
+          "id": 4,
+          "value": "Review"
+        },
+        {
+          "id": 5,
+          "value": "Approval"
+        }
+      ],
+      "time": 2000
+    },
+
+    {
+      "id": "0005",
+      "name": "Refactor CSS Styles",
+      "details": "Refactor CSS styles to improve maintainability and readability.",
+      "isPause": false,
+      "testCase": [
+        {
+          "id": 1,
+          "value": "Write Test Case list"
+        },
+        {
+          "id": 2,
+          "value": "Write code for test cases"
+        },
+        {
+          "id": 3,
+          "value": "Actual Implementation"
+        },
+        {
+          "id": 4,
+          "value": "Review"
+        },
+        {
+          "id": 5,
+          "value": "Approval"
+        }
+      ],
+      "time": 3600
+    }
+  ]
+}

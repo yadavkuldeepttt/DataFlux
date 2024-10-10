@@ -1,0 +1,19 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import EventLayout from '../../layouts/eventLayout.astro';
+import EventList from '../../components/svelte/event/eventList.svelte';
+
+---
+
+
+<Layout title="Events">
+	<main>
+          <EventList client:visible/>
+	</main>
+</Layout>
+
+
+<style>
+
+	
+</style>

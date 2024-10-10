@@ -1,0 +1,26 @@
+{
+  "jobs": [
+    {
+      "id": "1",
+      "jobPost": "Software Engineer",
+      "companyName": "ABC Inc.",
+      "salary": "$80,000",
+      "location": "New York",
+      "contests": [
+        { "name": "Coding Challenge", "date": "2024-04-01" },
+        { "name": "Design Contest", "date": "2024-04-15" }
+      ]
+    },
+    {
+      "id": "2",
+      "jobPost": "Data Scientist",
+      "companyName": "XYZ Corp.",
+      "salary": "$90,000",
+      "location": "San Francisco",
+      "contests": [
+        { "name": "Data Analysis Challenge", "date": "2024-04-10" }
+      ]
+    }
+  ]
+}
+

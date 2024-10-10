@@ -1,0 +1,29 @@
+Login Functionality:
+
+Test Case 1: Verify that clicking on the login button opens the login page.
+Test Case 2: Verify that the login page contains fields for entering user details (e.g., username, password).
+Test Case 3: Verify that entering valid user credentials and clicking on the login button redirects the user to the dashboard.
+Test Case 4: Verify that entering invalid user credentials displays appropriate error messages.
+
+Task Button Functionality:
+
+Test Case 5: Verify that clicking on the task button while logged in displays the tasks list.
+Test Case 6: Verify that the tasks list is shown in a sliding box format.
+Test Case 7: Verify that the tasks are displayed with details such as task name, id, etc.
+Test Case 8: Verify that options to edit, delete, and update tasks are available for each task entry.
+Test Case 9: Verify that clicking on the play button closes the slider box.
+Test Case 10: Verify that clicking on the task ID in the navbar opens a dropdown with test cases lists.
+
+Task Timer Functionality:
+
+Test Case 11: Verify that starting the timer for a task records the start time.
+Test Case 12: Verify that an input box for the ongoing task name is displayed when the timer is started.
+Test Case 13: Verify that additional tasks can be added while the timer is running.
+Test Case 14: Verify that moving a task to the "Done" box then calculates the time taken to complete the task.
+Test Case 15: Verify that the task moved to the "Done" box becomes read-only.
+
+Task Approval Functionality:
+
+Test Case 16: Verify that the team leader has the option to approve tasks.
+Test Case 17: Verify that approved tasks are marked as approved and cannot be further edited or deleted.
+Test Case 18: Verify that appropriate notifications/messages are displayed upon task approval.

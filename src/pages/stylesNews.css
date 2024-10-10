@@ -1,0 +1,692 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Add your custom styles below */
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+      display: none;
+  }
+ /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+}
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Sura", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+:root {
+  --bs-danger: #dc3545;
+  --bs-background: #ffdbca9c;
+  --bs-feedback: #424283;
+  --bs-bgColor: #ffdbca0f;
+  --bs-whatsapp:#25d366;
+  --scrollbar-width: 5px;
+  --scrollbar-height: 5px;
+    --scrollbar-color: red;
+    --bs-textColor:#fff;
+    --bs-BgColor:#ffffff;
+    --bs-slate:rgb(30 41 59);
+}
+/* [data-theme="light"] {
+ --bs-textWhite: #fff; 
+} */
+
+.btn{
+  min-height:2rem!important;
+  height:1rem!important;
+}
+
+.btn-success{
+  background-color: var(--bs-danger)!important;
+  border-color:var(--bs-danger)!important;
+  color:var(--bs-textColor)!important;
+}
+.carousel-container {
+  --scrollbar-width: 5px;
+  --scrollbar-color: red;
+}
+
+/* Apply scrollbar style */
+/* Note: This will only work in WebKit-based browsers like Chrome and Safari */
+.carousel-container::-webkit-scrollbar {
+  width: var(--scrollbar-width);
+}
+
+/* Track */
+.carousel-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+.carousel-container::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-color);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.carousel-container::-webkit-scrollbar-thumb:hover {
+  background: darken(var(--scrollbar-color), 10%);
+}
+
+
+body {
+  background-color: var(--bs-bgColor);
+}
+body.dark {
+  background-color: #333;
+  color: #fff;
+}
+body.dark a{
+  color: #fff;
+}
+
+
+.chatpopup{
+  width: 30vw;
+  max-height: 40vh;
+  position:fixed;
+  top:40%;
+  border-radius:15px!important;
+  background-color:#fafafa;
+  right:7%;
+  z-index:9999;
+  -webkit-border-radius:15px!important;
+  -moz-border-radius:15px!important;
+  -ms-border-radius:15px!important;
+  -o-border-radius:15px!important;
+}
+.chatbody .outgoing{
+    width: auto;
+    float: right;
+    clear:both;
+    margin: 0.5rem 0.3rem 0.2rem 0.3rem;
+    padding: 9px 16px;
+        /* overflow-wrap: break-word; */
+    vertical-align: middle;
+    background-color: var(--bs-danger);
+    color:#fff;
+    font-size: 13px;
+    line-height:24px;
+    border-radius: 12px 12px 0px 12px !important;
+        -webkit-border-radius: 0px 13px 0px 0px;
+    -moz-border-radius: 0px 13px 0px 0px;
+    -ms-border-radius: 0px 13px 0px 0px;
+    -o-border-radius: 0px 13px 0px 0px;
+}
+.chatbody .incoming{
+    width: auto;
+    float: left;
+    clear:both;
+    padding: 9px 16px;
+    margin: 0.5rem 0.3rem 0.2rem 0.3rem;
+    /* overflow-wrap: break-word; */
+    vertical-align: middle;
+    background-color: #e2e5eb;
+    color:#fff;
+    font-size: 13px;
+    line-height:24px;
+    border-radius: 12px 12px 12px 0 !important;
+    }
+    .chatbody::-webkit-scrollbar{
+       width:5px;
+    }
+
+.top-nav {
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+  transition: all 0.2s;
+  will-change: transform;
+  user-select: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+.top-nav.active {
+  background: rgba(255, 255, 255, 0.3);
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
+}
+
+.top-nav a {
+  cursor: pointer;
+  font-size: 0.7rem;
+}
+
+.sidebar-close-btn button {
+  display: none;
+}
+.mid-nav {
+  margin-top: 1.5rem;
+  padding: 0rem 0rem 0rem 7rem;
+  z-index: 1 !important;
+}
+
+.bottom-nav,
+.mid-nav .my-menu {
+  display: none;
+}
+.bottom-nav .d-flex .text-center:hover {
+  color: var(--bs-danger);
+}
+
+/* .main-container {
+  padding: 0rem 3.2rem 0rem 7rem;
+} */
+
+.offcanvas {
+  visibility: visible !important;
+}
+
+.offcanvas.show {
+  transform: none;
+}
+
+.offcanvas-start {
+  top: 4.49999rem !important;
+  max-width: 11.5rem !important;
+  height: 100vh !important;
+  max-height:100vh!important;
+  transform: translateX(-0%) !important;
+}
+
+.close-menu {
+  display: none;
+}
+
+.offcanvas-body::-webkit-scrollbar {
+  width: 0.2rem;
+}
+
+.offcanvas-body::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 8px var(--bs-danger);
+}
+
+.center-div {
+  z-index: 0;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.layer-content::-webkit-scrollbar {
+  width: 5px;
+}
+.button-bg {
+  box-shadow: 0 10 10 rgba(0, 0, 0, 0.4) !important;
+}
+
+.font600 {
+  font-weight: 600;
+}
+.colorbrown {
+  color: brown;
+}
+.textextrasmall {
+  font-size: 10px;
+}
+
+body.light-mode .link {
+  color: #fff !important;
+  background-color: transparent !important;
+}
+
+button:focus {
+  box-shadow: none !important;
+}
+
+.main-container {
+  position: relative;
+}
+footer {
+  z-index: -1;
+  position: absolute;
+  /* bottom:0%; */
+  background: var(--bs-background);
+  width: 87%;
+  left: 13%;
+}
+
+footer div img {
+  height: 2.5rem;
+}
+
+@media screen and (max-width: 1040px) {
+  .bx-bookmark,
+  .bx-message-detail,
+  .bx-share,
+  .bx-smile,
+  .d-flex .col-8 .bg-dark .px-3 .d-flex h4 {
+    font-size: 0.8rem !important;
+  }
+
+  .d-flex .col-8 .bg-dark .px-3 .d-flex p {
+    font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 950px) {
+  .close-menu {
+    display: block;
+  }
+ .threedicon{
+  top:73%!important;
+ }
+ .whatsapp-button span{
+  display: none;
+ }
+  
+  .websiteName {
+    padding-left: 1rem;
+  }
+  .offcanvas.show {
+    transform: none !important;
+  }
+
+  .offcanvas-start {
+    top: 0rem !important;
+    height: 100vh;
+    transform: translateX(-100%) !important;
+    -webkit-transform: translateX(-100%) !important;
+    -moz-transform: translateX(-100%) !important;
+    -ms-transform: translateX(-100%) !important;
+    -o-transform: translateX(-100%) !important;
+  }
+
+  .mid-nav .d-flex #premium {
+    display: none !important;
+  }
+
+  .mid-nav .my-menu {
+    display: block;
+  }
+
+  .main-container,
+  .mid-nav {
+    padding: 0.2rem 0;
+  }
+
+ 
+
+  .bottom-nav,
+  .close-menu {
+    z-index: 9999999 !important;
+    display: block;
+  }
+
+  footer {
+    display: none;
+  }
+  .sidebar-close-btn button {
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .mid-nav .d-flex .d-flex div {
+    padding: 0 0.6rem !important;
+  }
+    .mid-nav .d-flex .d-flex .whatsapp-button {
+    padding: 0 0.3rem !important;
+  }
+
+
+  .bottom-nav .d-flex .text-center p,
+  .mid-nav .d-flex .d-flex div .small {
+    font-size: 0.5em;
+  }
+
+  .center-div .d-flex .col-3,
+  .col-10 {
+    width: 100%;
+  }
+
+  .col-8,
+  .d-flex .col-8 {
+    width: 100%;
+  }
+
+  footer a {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .my-menu {
+    padding: 0;
+  }
+}
+
+.advertise div {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.missed-call {
+  background: hsl(340deg 100% 32%) !important;
+  border-radius: 12px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  z-index: 99999;
+}
+.front {
+  display: block;
+  padding: 8px 30px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  background: hsl(345deg 100% 47%) !important;
+  color: white !important;
+  cursor: pointer;
+  z-index: 999;
+  transform: translateY(-6px);
+}
+.missed-call:hover {
+  transform: translateY(-2px);
+  background-color: hsl(340deg 100% 32%) !important;
+}
+.layer-content::-webkit-scrollbar {
+  width: 5px;
+}
+.button-bg {
+  box-shadow: 0 10 10 rgba(0, 0, 0, 0.4) !important;
+}
+
+.bg-image-top {
+  background-image: url(https://c.sachtak.com/images/web/vector1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 24vh;
+}
+.bg-image-down {
+  background-image: url(https://c.sachtak.com/images/web/vector2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+.bg-page28 {
+  background-image: url(https://c.sachtak.com/images/web/vector3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.page6bgimg {
+  height: 70vh;
+  margin-top: 2rem;
+}
+.bg-image-banner {
+  background-image: url(https://c.sachtak.com/images/web/banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 39vh;
+  width: 100%;
+}
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: #f4f5f7 !important;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  color: #333 !important;
+  border-radius: 17px;
+}
+.pagination button:hover {
+  background-color: #007bff !important;
+  color: #fff !important;
+}
+.font600 {
+  font-weight: 600;
+}
+.colorbrown {
+  color: brown;
+}
+.textextrasmall {
+  font-size: 10px;
+}
+
+.pagination button.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.center-div .d-flex .col-8 .top-slider {
+  overflow: hidden;
+}
+
+.center-div .d-flex .col-3 {
+  width: 30%;
+}
+
+.center-div .d-flex .col-3 .ad-1 {
+  height: 14rem;
+}
+
+.center-div .d-flex .col-3 .ad-2 {
+  height: 5rem;
+}
+
+.center-div .d-flex .col-3 .ad-1 img,
+.center-div .d-flex .col-3 .ad-2 img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+@media only screen and (max-width: 1280px) {
+  .swiper-button-prev {
+    left: 27rem !important;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .swiper-button-next {
+    right: -0.5rem !important;
+  }
+
+  .swiper-button-prev {
+    left: 17rem !important;
+  }
+
+  .bx-bookmark,
+  .bx-message-detail,
+  .bx-share,
+  .bx-smile,
+  .d-flex .col-8 .bg-dark .px-3 .d-flex h4 {
+    font-size: 0.8rem !important;
+  }
+
+  .d-flex .col-8 .bg-dark .px-3 .d-flex p {
+    font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 950px) {
+  .close-menu {
+    display: block;
+  }
+  .carousel_home{
+    
+    margin-left:0!important;
+  }
+
+  .offcanvas.show {
+    transform: none !important;
+    -webkit-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -o-transform: none !important;
+}
+
+  .offcanvas-start {
+    top: 0rem !important;
+    height: 100vh !important;
+    transform: translateX(-100%) !important;
+    -webkit-transform: translateX(-100%) !important;
+    -moz-transform: translateX(-100%) !important;
+    -ms-transform: translateX(-100%) !important;
+    -o-transform: translateX(-100%) !important;
+  }
+
+  .swiper-pagination2 .swiper-pagination-bullet {
+    width: 17px !important;
+    height: 17px !important;
+    line-height: 17px !important;
+    font-size: 11px !important;
+  }
+
+  .mid-nav .d-flex #premium {
+    display: none !important;
+  }
+
+  .swiper-button-prev {
+    left: 24.5rem !important;
+  }
+
+  .mid-nav .my-menu {
+    display: block;
+  }
+
+  .main-container,
+  .mid-nav {
+    padding: 0.2rem 0;
+  }
+
+
+  .bottom-nav,
+  .close-menu {
+    z-index: 999 !important;
+
+    display: block;
+  }
+
+  .mySwiper2 .swiper-slide {
+    width: 13rem !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .offcanvas .mySwiper2 .swiper-slide {
+    width: 17rem !important;
+  }
+
+  .mySwiper2 .swiper-wrapper {
+    margin: 0;
+  }
+
+  .mid-nav {
+    padding: 0rem;
+  }
+  .hoverbuttons a{
+    font-size: 9px!important;
+    padding:0.2rem 0.4rem;
+    border-radius: 2rem!important;
+    -webkit-border-radius: 2rem!important;
+    -moz-border-radius: 2rem!important;
+    -ms-border-radius: 2rem!important;
+    -o-border-radius: 2rem!important;
+}
+.vertical-button{
+  font-size:10px!important;
+  font-weight:500;
+}
+  .mid-nav .bx-menu{
+    font-size: 12px;
+  }
+  .mid-nav h5{
+        font-size: 17px;
+    padding-left: 0.7rem;
+  }
+  
+
+  .mid-nav .d-flex .d-flex .bx {
+    font-size: 1rem !important;
+  }
+
+  .mid-nav .d-flex .d-flex div {
+    padding: 0 0.6rem !important;
+  }
+  
+  .mid-nav .d-flex .d-flex .whatsapp-button {
+    padding: 0 0.3rem !important;
+  }
+
+  .bottom-nav .d-flex .text-center p,
+  .mid-nav .d-flex .d-flex div .small {
+    font-size: 0.5em;
+  }
+
+  .center-div .d-flex .col-3,
+  .col-10 {
+    width: 100%;
+  }
+
+  .col-8,
+  .d-flex .col-8 {
+    width: 100%;
+  }
+  .chatpopup{
+  width: 59vw;
+  max-height: 70vh;
+  top:10%;
+  right:14%;
+}
+}
+@media screen and (max-width: 400px) {
+  .my-menu {
+    padding: 0;
+  }
+}
+
+
+/* For small devices (e.g., phones) */
+@media (max-width: 576px) {
+  .s-fTHgEzeeD59e {
+    padding: 0.5rem;
+  }
+  .jobs {
+    padding: 0.5rem;
+  }
+}
+
+/* For small devices (e.g., phones) */
+@media (max-width: 576px) {
+  .flexcontainer {
+    flex-direction: column!important;
+  }
+
+}
+
+/* .iframcontainer {
+  position: relative;
+  width: 100%;
+  padding-top: 40%;}
+
+.iframcontainer iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+ */
